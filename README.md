@@ -9,7 +9,7 @@ Alfred Nmap is an Android private-network device availability checker. It displa
 Requirements: JDK 17+ and Android SDK Platform 35.
 
 ```bash
-./gradlew clean testDebugUnitTest lintDebug assembleDebug
+bash ./gradlew clean testDebugUnitTest lintDebug assembleDebug
 ```
 
 The debug APK is available as [`alfred-nmap.apk`](./alfred-nmap.apk). Android may ask you to allow installation from the app used to open the file.
